@@ -4,20 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: "./gatsby-config.js"
-  label: config
-  read_only: true
-- type: directory
-  path: ''
-  label: all
-  create: all
-  match: "**/*"
-- type: heading
-  label: asdfasdf
 - type: directory
   path: content
   label: Content
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: all
   create: all
   match: "**/*"
 upload_dir: content/assets
