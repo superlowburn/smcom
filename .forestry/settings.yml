@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: ''
+  path: gatsby-config.js
   label: config
   match: "**/*"
 upload_dir: content/assets
