@@ -12,7 +12,6 @@ fields:
   name: description
   label: description
 pages:
-- content/blog/asdf.md
 - content/blog/ohhai.md
 - content/ohhai-1.md
 - content/ohhai.md
