@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Steve Mallett`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Steve Mallett`,
+      summary: `It'll be ok.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `It'll be ok.`,
+    siteUrl: `https://beta.stevenmallett.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `comforteagle`,
     },
   },
   plugins: [
