@@ -12,5 +12,4 @@ fields:
   name: description
   label: description
 pages:
-- content/ohhai-copy.md
 - content/ohhai.md
