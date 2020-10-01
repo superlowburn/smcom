@@ -12,7 +12,6 @@ sections:
 - type: document
   path: gatsby-config.js
   label: config
-  match: "**/*"
 upload_dir: content/assets
 public_path: "/file"
 front_matter_path: ''
