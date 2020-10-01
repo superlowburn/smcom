@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: "./gatsby-config.js"
+  label: config
+  read_only: true
 - type: directory
   path: ''
   label: all
@@ -16,10 +20,6 @@ sections:
   label: Content
   create: all
   match: "**/*"
-- type: document
-  path: "./gatsby-config.js"
-  label: config
-  read_only: true
 upload_dir: content/assets
 public_path: "/file"
 front_matter_path: ''
